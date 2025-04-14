@@ -36,18 +36,19 @@ button {
   border: none;
 }
 
+img {
+display: block;
+}
 /* header */
 
 .header {
   height: 72px;
-}
-
-.header .container {
-  display: flex;
-  align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav {
+  display: flex;
+  align-items: center;
   margin-left: 76px;
 }
 
@@ -74,6 +75,7 @@ button {
 }
 
 .link-active {
+  padding: 24px 0 24px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.02em;
