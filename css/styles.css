@@ -28,6 +28,8 @@ p {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -121,7 +123,6 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
 
 .section-one-h-one {
@@ -130,7 +131,8 @@ header {
   line-height: 107%;
   text-align: center;
   color: #fff;
-  margin-bottom: 48px;
+  margin: 0 auto 48px auto;
+  max-width: 496px;
 }
 
 .button-servise {
@@ -156,10 +158,10 @@ header {
 /* section-priciplec */
 
 .principles-list {
-    display: flex;
-    padding-top: 120px;
-    padding-bottom: 108px;
-    gap: 24px;
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 108px;
+  gap: 24px;
 }
 .principles-h {
   font-weight: 500;
@@ -195,15 +197,16 @@ header {
 }
 
 .our-team-list {
-    display: flex;
-    text-align: center;
-    gap: 24px;
-    padding-top: 72px;
-    padding-bottom: 120px;
+  display: flex;
+  text-align: center;
+  gap: 24px;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
 
 .our-team-li {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
 }
 
 .our-team-h {
@@ -236,10 +239,27 @@ header {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 142px;
 }
 
 .portfolio-list {
-    display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+  padding-top: 72px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list li {
+  flex-basis: calc((100% - 48px) / 3);
+  box-sizing: border-box;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 
 .portfolio-h {
@@ -248,6 +268,7 @@ header {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
 }
 
 .portfolio-p {
@@ -256,6 +277,8 @@ header {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 8px;
+  padding-bottom: 32px;
 }
 /* end-section-portfolio */
 
@@ -264,6 +287,11 @@ header {
 /* section-footer */
 .footer {
   background-color: #2e2f42;
+}
+
+.section-logo-and-link-footer {
+  padding-top: 100px;
+  padding-bottom: 16px;
 }
 
 .logo-footer {
@@ -287,5 +315,7 @@ header {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
+  padding-bottom: 100px;
 }
 /* end-section-footer */
