@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0,02em;
   color: #434455;
   background-color: #ffffff;
 }
@@ -17,8 +17,9 @@ a {
 }
 
 .container {
-  width: 1440px;
-  padding: 0 20px;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -124,6 +125,8 @@ button {
   display: flex;
   flex-direction: column;
   gap: 48px;
+   align-items: center;
+  text-align: center;
 }
 
 .section-one-h-one {
@@ -134,9 +137,8 @@ button {
   text-align: center;
   color: #fff;
   padding-top: 188px;
-  padding-right: 473px;
   padding-bottom: 48px;
-  padding-left: 471px;
+  max-width: 800px;
 }
 
 .button-servise {
@@ -152,10 +154,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 636px;
-  margin-bottom: 188px;
-  margin-left: 635px;
   white-space: nowrap;
+   margin: 0 auto;
 }
 
 .button-servise:hover,
@@ -204,6 +204,10 @@ button {
 .our-team-ul {
   display: flex;
   gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
 }
 
 .our-team {
@@ -260,6 +264,10 @@ button {
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
+   border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  box-sizing: border-box;
 }
 
 .portfolio-h {
@@ -278,14 +286,6 @@ button {
   color: #434455;
 }
 
-.portfolio-h .portfolio-p {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-  padding: 32px 16px;
-  width: 360px;
-  height: 120px;
-}
 /* end-section-portfolio */
 
 /* end-main */
