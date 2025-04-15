@@ -146,6 +146,9 @@ img {
 }
 
 .button-servise {
+  display: block;
+  min-width: 169px;
+  margin: auto;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.04em;
