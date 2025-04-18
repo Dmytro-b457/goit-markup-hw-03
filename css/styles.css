@@ -336,6 +336,7 @@ img {
 /* section-footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .container-footer {
@@ -344,10 +345,10 @@ img {
   margin: 0 auto;
 }
 
-.section-logo-and-link-footer {
+/* .section-logo-and-link-footer {
   padding-top: 100px;
   padding-bottom: 16px;
-}
+} */
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -358,6 +359,8 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer-span {
