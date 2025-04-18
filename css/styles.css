@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -57,7 +57,7 @@ img {
 }
 
 .logo-header {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
@@ -317,7 +317,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-top: 32px;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 
 .portfolio-p {
@@ -346,7 +346,7 @@ img {
 }
 
 .logo-footer {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
