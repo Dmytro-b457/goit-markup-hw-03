@@ -302,14 +302,6 @@ img {
   border-top: none;
 }
 
-/* .portfolio-list li {
-  flex-basis: calc((100% - 48px) / 3);
-  box-sizing: border-box;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
-} */
-
 .portfolio-h {
   font-weight: 500;
   font-size: 20px;
@@ -344,11 +336,6 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-
-/* .section-logo-and-link-footer {
-  padding-top: 100px;
-  padding-bottom: 16px;
-} */
 
 .logo-footer {
   font-family: "Raleway", sans-serif;
